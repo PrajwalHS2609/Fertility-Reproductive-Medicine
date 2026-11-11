@@ -1,0 +1,6 @@
+{
+  "name": "Aura Fertility & Reproductive Medicine",
+  "description": "Modern IVF and fertility centre offering advanced reproductive healthcare, embryology, and compassionate, personalized fertility care.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
