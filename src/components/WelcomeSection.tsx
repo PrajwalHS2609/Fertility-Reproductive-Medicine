@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, CheckCircle2, Lock, Sparkles, UserCheck } from 'lucide-react';
+import { CLINIC_IMAGES } from '../assets/images.ts';
 
 interface WelcomeSectionProps {
   onLearnMore: () => void;
@@ -22,7 +23,7 @@ export const WelcomeSection: React.FC<WelcomeSectionProps> = ({
             <div className="relative">
               <div className="rounded-3xl overflow-hidden shadow-xl border border-[#E8E2D9] aspect-4/3 lg:aspect-3/4 relative">
                 <img
-                  src="/src/assets/images/clinic_recovery_interior_1794392486180.jpg"
+                  src={CLINIC_IMAGES.clinic}
                   alt="Aura Fertility serene private consultation and recovery lounge with natural oak textures and soft botanical outlook"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"

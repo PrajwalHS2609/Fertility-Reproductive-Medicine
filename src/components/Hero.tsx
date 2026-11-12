@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, ShieldCheck, Microscope, HeartHandshake, Sparkles } from 'lucide-react';
+import { CLINIC_IMAGES } from '../assets/images.ts';
 
 interface HeroProps {
   onOpenBooking: () => void;
@@ -81,7 +82,7 @@ export const Hero: React.FC<HeroProps> = ({
           <div className="lg:col-span-5 relative flex items-center">
             <div className="w-full h-full min-h-[380px] sm:min-h-[460px] lg:min-h-[520px] rounded-3xl overflow-hidden shadow-xl border border-[#E8E2D9] relative group">
               <img
-                src="/src/assets/images/hero_fertility_consultation_1794392485347.jpg"
+                src={CLINIC_IMAGES.hero}
                 alt="Fertility specialist physician consulting attentively with a couple in a sunlit modern clinical office"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-102"

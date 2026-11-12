@@ -28,6 +28,7 @@ import { BookingModal } from './components/BookingModal.tsx';
 import { Footer } from './components/Footer.tsx';
 import { MobileQuickBar } from './components/MobileQuickBar.tsx';
 import { TREATMENTS, DOCTORS, FACILITIES } from './data/fertilityData.ts';
+import { CLINIC_IMAGES } from './assets/images.ts';
 import { ArrowLeft, ArrowRight, ShieldCheck, Phone, CheckCircle2 } from 'lucide-react';
 
 export default function App() {
@@ -167,7 +168,7 @@ export default function App() {
               {/* Clinic Recovery Photo */}
               <div className="rounded-3xl overflow-hidden aspect-16/9 border border-[#E8E2D9] mb-12 shadow-md">
                 <img
-                  src="/src/assets/images/clinic_recovery_interior_1794392486180.jpg"
+                  src={CLINIC_IMAGES.clinic}
                   alt="Aura Fertility Centre interiors"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Microscope, Award, Stethoscope, Lock, Users, Activity, Heart, CalendarCheck2 } from 'lucide-react';
+import { CLINIC_IMAGES } from '../assets/images.ts';
 
 export const WhyChooseUs: React.FC = () => {
   const strengths = [
@@ -60,7 +61,7 @@ export const WhyChooseUs: React.FC = () => {
             <div>
               <div className="relative rounded-2xl overflow-hidden aspect-4/5 mb-6 border border-[#E8E2D9]">
                 <img
-                  src="/src/assets/images/doctor_specialist_portrait_1794392485214.jpg"
+                  src={CLINIC_IMAGES.doctor}
                   alt="Dr. Evelyn Vance, Medical Director & Chief Reproductive Endocrinologist"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover object-top"

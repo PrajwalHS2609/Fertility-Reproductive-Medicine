@@ -1,4 +1,5 @@
 import { Treatment, Doctor, JourneyStep, Facility, Testimonial, ResourceArticle, FAQItem } from '../types/index.ts';
+import { CLINIC_IMAGES } from '../assets/images.ts';
 
 export const TREATMENTS: Treatment[] = [
   {
@@ -269,7 +270,7 @@ export const DOCTORS: Doctor[] = [
       'Residency in Obstetrics & Gynecology, Johns Hopkins Hospital',
       'Fellowship in Reproductive Endocrinology & Infertility, Harvard / Brigham & Women’s Hospital'
     ],
-    image: '/src/assets/images/doctor_specialist_portrait_1794392485214.jpg'
+    image: CLINIC_IMAGES.doctor
   },
   {
     id: 'marcus-sterling',
@@ -295,7 +296,7 @@ export const DOCTORS: Doctor[] = [
       'Postdoctoral Fellowship in Assisted Reproductive Technologies, Yale University',
       'Board Certified High-Complexity Clinical Laboratory Director (HCLD)'
     ],
-    image: '/src/assets/images/lab_embryology_cleanroom_1794392485965.jpg'
+    image: CLINIC_IMAGES.lab
   },
   {
     id: 'samantha-chen',
@@ -321,7 +322,7 @@ export const DOCTORS: Doctor[] = [
       'MPH in Epidemiology & Biostatistics, Columbia Mailman School of Public Health',
       'Fellowship in REI, University of California, San Francisco (UCSF)'
     ],
-    image: '/src/assets/images/hero_fertility_consultation_1794392485347.jpg'
+    image: CLINIC_IMAGES.hero
   },
   {
     id: 'arthur-campbell',
@@ -347,7 +348,7 @@ export const DOCTORS: Doctor[] = [
       'Urology Residency, University of Washington Medical Center',
       'Fellowship in Male Infertility & Microsurgery, Cornell Weill Medical College'
     ],
-    image: '/src/assets/images/clinic_recovery_interior_1794392486180.jpg'
+    image: CLINIC_IMAGES.clinic
   }
 ];
 
@@ -446,7 +447,7 @@ export const FACILITIES: Facility[] = [
       'Medical-grade uninterrupted power systems with dual emergency backup generators',
       'Strict cleanroom gowning protocols eliminating synthetic perfumes and contaminants'
     ],
-    image: '/src/assets/images/lab_embryology_cleanroom_1794392485965.jpg'
+    image: CLINIC_IMAGES.lab
   },
   {
     id: 'incubation-suite',
@@ -459,7 +460,7 @@ export const FACILITIES: Facility[] = [
       'Artificial intelligence-assisted morphokinetic grading algorithms (AI-supported annotation)',
       'Reduced cellular stress compared to traditional daily manual microscope inspection'
     ],
-    image: '/src/assets/images/lab_embryology_cleanroom_1794392485965.jpg'
+    image: CLINIC_IMAGES.lab
   },
   {
     id: 'micromanipulation',
@@ -472,7 +473,7 @@ export const FACILITIES: Facility[] = [
       'Focused infrared diode laser for zona pellucida micro-opening and assisted hatching',
       'High-resolution digital camera output for real-time procedural documentation'
     ],
-    image: '/src/assets/images/lab_embryology_cleanroom_1794392485965.jpg'
+    image: CLINIC_IMAGES.lab
   },
   {
     id: 'cryobank',
@@ -485,7 +486,7 @@ export const FACILITIES: Facility[] = [
       'Electronic RFID and barcoding patient identity matching systems',
       'Comprehensive disaster resilience infrastructure with dedicated bulk refill reserves'
     ],
-    image: '/src/assets/images/clinic_recovery_interior_1794392486180.jpg'
+    image: CLINIC_IMAGES.clinic
   },
   {
     id: 'consultation-suites',
@@ -498,7 +499,7 @@ export const FACILITIES: Facility[] = [
       'Private pre-procedure and post-procedure check-in ensuring complete patient privacy',
       'Dedicated family hospitality lounge with refreshments and quiet Wi-Fi connectivity'
     ],
-    image: '/src/assets/images/clinic_recovery_interior_1794392486180.jpg'
+    image: CLINIC_IMAGES.clinic
   }
 ];
 
